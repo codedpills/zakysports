@@ -1,7 +1,11 @@
-import React from "react";
+import React from "react"
+import Header from "../components/header/Header"
 
 const IndexPage = () => (
-  <h1>Hello, welcome to ZakySports</h1>
+  <>
+    <Header />
+    <h1>Hello, welcome to ZakySports</h1>
+  </>
 )
 
 export default IndexPage
