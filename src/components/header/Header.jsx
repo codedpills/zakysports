@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import headerStyles from './header.module.css';
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className={headerStyles.header}>
       <div>ZakySports.com</div>
       <div>
         <ul>
