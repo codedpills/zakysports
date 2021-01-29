@@ -1,24 +1,25 @@
-import React from 'react';
+import React from "react"
+import { Link } from "gatsby"
 
 const Header = () => {
-    return (
-        <div className="header">
-            <div>ZakySports.com</div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                    <li>
-                        <a href="/news">Latest News</a>
-                    </li>
-                    <li>
-                        <a href="/contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    );
+  return (
+    <div className="header">
+      <div>ZakySports.com</div>
+      <div>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/news">Latest News</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  )
 }
 
-export default Header;
+export default Header
