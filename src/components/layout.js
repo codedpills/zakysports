@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './footer/Footer';
 import Header from './header/Header';
 
-const layout = ({children}) => {
+const Layout = ({children}) => {
     return (
         <>
         <Header />
@@ -12,4 +12,4 @@ const layout = ({children}) => {
     );
 }
 
-export default layout;
+export default Layout;
