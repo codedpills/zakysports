@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const StyledFooter = styled.div`
   background-color: black;
-  color: white;
+  color: ${props => props.color || "white"};
   padding: 0.5rem;
   margin-top: 2rem;
 `
@@ -14,7 +14,7 @@ const StyledParagraph = styled.p`
 
 const Footer = () => {
   return (
-    <StyledFooter className="footer">
+    <StyledFooter className="footer" color="yellow">
       <StyledParagraph>
         &copy; ZakySports 2021. All rights reserved.
       </StyledParagraph>
